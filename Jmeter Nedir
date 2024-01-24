@@ -1,0 +1,29 @@
+Jmeter Nedir?
+
+JMeter™ uygulaması, performans ölçmek için tasarlanmış %100 Java temelli bir uygulama olan açık kaynaklı bir yazılımdır.
+
+JMeter İle Neler Yapılabilir?
+
+JMeter, hem statik 
+		hem de dinamik kaynaklarda, 
+		Web dinamik uygulamalarında performansı test etmek için kullanılabilir.
+
+Gücünü test etmek veya farklı yük türleri altında 
+genel performansını analiz etmek için 
+	bir sunucu, 
+	sunucu grubu, 
+	ağ veya 
+	nesne üzerindeki ağır bir yükü simüle etmek için kullanılabilir.
+
+
+Birçok farklı uygulama/sunucu/protokol türünü yükleyebilme ve performans testi yapabilme:
+Web - HTTP, HTTPS (Java, NodeJS, PHP, ASP.NET, …)
+SOAP / REST Web Servisleri
+
+
+Hızlı Test Planı kaydına (Tarayıcılardan veya yerel uygulamalardan), 
+derlemeye ve 
+hata ayıklamaya izin veren tam özellikli Test IDE'si.
+
+Eksiksiz ve sunulmaya hazır bir dinamik HTML raporu
+
