@@ -1,0 +1,61 @@
+JMeter Elementler	
+
+‘Element’ Kavramı
+JMeter'in farklı bileşenlerine Element denir. 
+Her element belirli bir amaç için tasarlanmıştır.
+
+Thread Group
+Thread group elementi test planlarımızın BAŞLANGIÇ noktalarıdır. 
+Adından da anlaşılacağı gibi, 
+	thread group elementi JMeter’in test sırasında kullanacağı thread sayısını (kullanıcı simüle edilmesi) kontrol eder.
+	-Thread sayısını 100 verirsek, Jmeter test edilen yere 100 kullanıcı ile yüklenir
+
+Örneğin thread sayısını 100 olarak ayarlarsanız; 
+JMeter, 
+	test edilen sunucuya 100 kullanıcı isteği oluşturacak ve simüle edecektir.
+	Simüle etmek istediğimiz kullanıcı sayısının ayarlandığı yer
+
+*Her thread, test edilen uygulamayı kullanan bir kullanıcıyı ifade eder
+
+Samplers
+Sampler, JMeter’in 
+	belirli türdeki request’leri bir sunucuya göndermesini sağlamaktadır. 
+Aslında hedef sunucudaki bir sayfa için kullanıcı isteğini simüle eder.
+JMeter; 
+	HTTP, 
+	FTP, 
+	JDBC ve 
+	diğer birçok protokolün test edilmesini destekler. 
+Performans testinde kullanılabilecek tüm requestler buradan eklenilir.
+
+HTTP Request
+Bu sampler, bir web sunucusuna HTTP/HTTPS isteği göndermenizi sağlar.
+
+Listeners
+Listener, 
+	Sampler’lar tarafından yapılan isteklerin sonuçlarını 
+		tablolar, table
+		grafikler, graph
+		ağaç tipi yapılarda veya tree
+		log biçiminde görüntülemenizi sağlar. log
+JMeter’da bir Sampler bileşeni yürütüldüğünde, 
+	test senaryoları hakkında JMeter tarafından toplanan verilere "görsel erişim" sağlar.
+	*Aynı ve alt seviyedeki elemanlardan veri toplar
+
+Configuration Elements
+Configuration elementleri, 
+	Sampler tarafından kullanılacak varsayılan ayarları ve 
+	değişkenleri yaratmamıza ve 
+				 yapılandırmamıza olanak sağlar.
+
+Sampler tarafından yapılan request’leri eklemek veya 
+										değiştirmek için sampler’dan önce yürütülür.
+Bu nedenle, bir configuration elementine yalnızca yerleştirildiği branch’in içinden erişilir.
+
+HTTP Request Default
+Bu element, HTTP request denetleyicilerimizin kullandığı varsayılan değerleri ayarlamanıza olanak tanır. 
+Örneğin; 
+	google.com sunucusuna 100 HTTP isteği göndermek istediğimizde 100 istek için de manuel olarak server name = google.com girmemiz gerekir. 
+Bunun yerine, 
+	“Serve Name or IP” alana tek bir varsayılan HTTP isteği ekleyebilirsiniz. 
+	Bu sayede 100 kez yazmamıza gerek kalmaz.
