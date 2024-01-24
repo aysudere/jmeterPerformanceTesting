@@ -1,0 +1,94 @@
+Bölüm 1 : Giriş
+
+Kursun Yol Haritası
+Performans Testine Genel Bakış
+JMeter Nedir?
+JMeter Kurulumu
+
+Bölüm 2 : JMeter Elementler & İlk Test
+
+JMeter Elementler (Thread Group,Sampleres,Listeners,Configuration)
+İlk JMeter Testi
+
+Bölüm 3 : Assertions
+
+Assertions Nedir?
+Response Assertion
+Response Assertion-2
+Size Assertion
+Duration Assertion
+HTML Assertion
+XML Assertion
+
+Bölüm 4 : Listeners (Dinleyiciler)
+
+Listeners Nedir?
+View Results in Table
+View Results Tree
+Graph Results
+Aggregate Report & Aggregate Graph
+Summary Report
+
+Bölüm 5: Timers (Zamanlayıcılar)
+
+Timers Nedir?
+Constant Timer (Sabit Zamanlayıcı)
+Uniform Random Timer
+
+Bölüm 6: Logic Controller (Mantıksal Denetleyiciler)
+
+Logic Controller Nedir?
+Loop Controller (Döngü Denetleyicisi)
+Recording Controller (Kayıt Denetleyicisi)
+Simple Controller (Basit Denetleyici)
+Module Controller (Modül Denetleyicisi)
+Test Fragment Controller
+Include Controller
+Random Controller (Rastgele Denetleyici)
+Random Order Controller
+Interleave Controller
+Throughput Controller
+
+Bölüm 7 : Parameterization (Parametrelendirme)
+
+Parametrelendirme Nedir?
+Internal Parametreler
+CSV/Excel Dosyası Üzerinden Parametre Değerleri Okuma (External Parametreler)
+
+Bölüm 8 : PreProcessor & PostProcessor
+
+PreProcessor & PostProcessor Nedir?
+PreProcessor & PostProcessor Kullanımı
+
+Bölüm 9: HTML Rapor Oluşturma
+
+HTML Rapor Nasıl Oluşturulur?
+
+Bölüm 10: Correlation (Korelasyon)
+
+Correlation Nedir?
+Regular Expression Extractor ile Korelasyon
+
+Bölüm 11:Functions and Variables (Fonksiyonlar ve Değişkenler)
+
+Functions and Variables Nedir?
+Functions and Variables Nasıl Kullanılır?
+
+Bölüm 12: JMeter İle API Testi
+
+API Nedir?
+JMeter ile API Testi Nasıl Yapılır? (I)
+JMeter ile API Testi Nasıl Yapılır? (II)
+
+Bölüm 13: Bitirme Projesi
+
+Bitirme Projesi Adımları
+Bitirme Projesi
+
+Bölüm 14: Genel Değerlendirme Soruları
+
+Genel Değerlendirme Soruları
+
+Bölüm 15: Kurs Sonu
+
+Kurs Sonu
