@@ -1,0 +1,114 @@
+Performans testi nedir?
+
+Performans testi, 
+bir uygulamanın 
+-kararlılığının,
+-hızının, 
+-ölçeklenebilirliğinin ve 
+-yanıt verebilirliğinin belirli bir iş yükü altında nasıl dayanacağını belirleyen, işlevsel olmayan bir yazılım test tekniğidir.
+
+Performans testinin hedefleri, 
+-uygulama çıktısını, 
+-işlem hızını, 
+-veri aktarım hızını, 
+-ağ bant genişliği kullanımını, 
+-maksimum eşzamanlı kullanıcıları, 
+-bellek kullanımını, 
+-iş yükü verimliliğini ve 
+-komut yanıt sürelerini değerlendirmeyi içerir.
+
+Neden performans testi yapılır?
+
+-Uygulamanın performans gereksinimlerini karşılayıp karşılamadığını belirlemek için
+-Bir yazılım satıcısı tarafından iddia edilen performans düzeylerinin gerçekten doğru olup olmadığını belirlemek.
+-İki veya daha fazla sistemi karşılaştırmak ve en iyi performansı göstereni belirlemek.
+
+Performans testi türleri
+
+Capacity Testing       : Performans kabul edilebilir seviyelerin altına düşmeden önce kaç kullanıcıyı kabul edebileceğini kontrol                           
+Load Testing		   : Sistemin gerekli sayıda kullanıcıyı işleyebileceğini yine de yüksek performans gösterebileceğini gösterir	 
+Volume Testing		   : Yazılımın herhangi bir bilgiyi bozmadan, kaybetmeden büyük veriyi işleyip işleyemeyeceğini kontrol eder
+Stress Testing		   : Beklentileri aşan kullanıcıyı, sistemi bozma çabasıdır (ani artış)
+Soak Testing           : Yüksek trafik olayının simüle edilmesi (Uzun süreli yoğun trafiği tölere etme yeteneği)           
+
+Kapasite Testi
+Yük Testi
+Hacim Testi
+Stres testi
+Islatma Testi
+
+Yaygın Performans Sorunları
+
+Long Load Time : Uygulama yüklenmesinin beklenmesi
+Poor Response Time : Uzun yükleme süreleri gibi örneklendirilebilir 
+Poor Scalability : Sitenin ani kullanıcı akışına maruz kaldığında yanıt vermemesi
+Bottlenecking : Bir sistem işlemci gücünü tahsis ettiğinde ortaya çıkar (işlemci, hafıza, cpu)
+
+Uzun Yükleme Süresi
+Zayıf Tepki Süresi
+Zayıf Ölçeklenebilirlik
+Darboğaz
+
+Performans Testi Süreci
+
+Test ortamının belirlenmesi : mavcut donanım, yazılım, ağ donanımlarını belirlemek. 
+Performans metriklerinin belirlenmesi : tepki süresi, verim gibi metrikleri. başarı kriterlerinin belirlenmesi
+Performans testlerinin planlanması ve yazılması : Hedef metrikleri , kullanıcı değişiklikleri planlanır
+Test ortamının yapılandırılması : Test ortamının izlenilmesi için gereken araçların bulunması
+Test tasarımın uygulanması : Testlerin uygulanması
+Testin çalıştırılması : Testler çalıştırılır ve veriler seçilir
+Analiz, rapor ve tekrar test : Aynı ve farklı veriler kullanılarak test, raporlanır ve analiz edilir
+
+Performans Testi Metrikleri
+
+Tepki Süresi (Response Time)
+İstek göndermek ve yanıt almak için toplam süre.
+
+Bekleme zamanı (Wait Time)
+Ortalama gecikme olarak da bilinen bu, geliştiricilere bir istek gönderildikten sonra ilk baytı almanın ne kadar sürdüğünü söyler.
+
+Ortalama Yükleme Süresi (Average Load Time)
+Her isteği yerine getirmek için geçen ortalama süre, kullanıcının bakış açısından kalitenin önemli bir göstergesidir.
+
+Tepe Tepki Süresi
+Bu, bir talebi yerine getirmek için gereken en uzun sürenin ölçümüdür. Ortalamadan önemli ölçüde daha uzun olan bir pik yanıt süresi, sorun yaratacak bir anormalliğe işaret edebilir.
+
+Eşzamanlı kullanıcılar (Concurrent Users)
+Bu, yükün en yaygın ölçüsüdür - herhangi bir noktada kaç aktif kullanıcı. Yük boyutu olarak da bilinir.
+
+Saniye Başına İstek Sayısı (Requests Per Second)
+Kaç istek işlenir.
+
+Başarılı/Başarısız İşlemler (Transactions Passed/Failed)
+Başarılı veya başarısız isteklerin toplam sayısının ölçümü.
+
+Verim (Throughput)
+Saniyede kilobayt olarak ölçülen verim, test sırasında kullanılan bant genişliği miktarını gösterir.
+
+CPU kullanımı (CPU Utilization)
+CPU'nun istekleri işlemek için ne kadar zamana ihtiyacı vardır.
+
+Bellek Kullanımı (Memory Utilization)
+İsteği işlemek için ne kadar belleğe ihtiyaç vardır.
+
+Performans Test Araçları
+
+The Grinder
+Gatling
+Multi-Mechanize
+Siege
+
+Örnek Performans Testi Senaryoları
+
+Test Senaryosu 01:1000 kullanıcı web sitesine aynı anda eriştiğinde yanıt süresinin 4 saniyeden uzun olmadığını doğrulayın.
+Test Durumu 02:Ağ bağlantısı yavaş olduğunda Yük Altındaki Uygulamanın yanıt süresinin kabul edilebilir bir aralık içinde olduğunu doğrulayın
+Test Durumu 03:Uygulamanın çökmeden önce işleyebileceği maksimum kullanıcı sayısını kontrol edin.
+Test Senaryosu 04:Aynı anda 500 kayıt okunduğunda/yazıldığında veritabanı yürütme süresini kontrol edin.
+Test Senaryosu 05:Uygulamanın ve veritabanı sunucusunun en yüksek yük koşullarında CPU ve bellek kullanımını kontrol edin
+Test Durumu 06:Uygulamanın yanıt süresini düşük, normal, orta ve ağır yük koşullarında doğrulayın.
+
+Sonuç
+
+Herhangi bir yazılım ürününü pazarlamadan önce Performans testi gereklidir. 
+Müşteri memnuniyetini sağlar ve bir yatırımcının yatırımını ürün arızasına karşı korur. 
+Performans testinin maliyetleri, genellikle artan müşteri memnuniyeti, sadakati ve elde tutma ile telafi edilenden daha fazladır.
