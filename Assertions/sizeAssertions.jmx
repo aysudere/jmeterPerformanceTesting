@@ -7,7 +7,7 @@
       </elementProp>
     </TestPlan>
     <hashTree>
-      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="NumberOfUsers">
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="NumberOfUsers" enabled="true">
         <intProp name="ThreadGroup.num_threads">10</intProp>
         <intProp name="ThreadGroup.ramp_time">1</intProp>
         <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
@@ -142,75 +142,29 @@
         <stringProp name="filename"></stringProp>
       </ResultCollector>
       <hashTree/>
-      <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Message-1">
-        <collectionProp name="Asserion.test_strings">
-          <stringProp name="2524">OK</stringProp>
-        </collectionProp>
-        <stringProp name="Assertion.custom_message"></stringProp>
-        <stringProp name="Assertion.test_field">Assertion.response_message</stringProp>
-        <boolProp name="Assertion.assume_success">false</boolProp>
-        <intProp name="Assertion.test_type">2</intProp>
-      </ResponseAssertion>
+      <SizeAssertion guiclass="SizeAssertionGui" testclass="SizeAssertion" testname="Size Assertion-1">
+        <stringProp name="Assertion.test_field">SizeAssertion.response_network_size</stringProp>
+        <stringProp name="SizeAssertion.size">1000</stringProp>
+        <intProp name="SizeAssertion.operator">1</intProp>
+      </SizeAssertion>
       <hashTree/>
-      <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Message-2">
-        <collectionProp name="Asserion.test_strings">
-          <stringProp name="2524">OK</stringProp>
-        </collectionProp>
-        <stringProp name="Assertion.custom_message"></stringProp>
-        <stringProp name="Assertion.test_field">Assertion.response_message</stringProp>
-        <boolProp name="Assertion.assume_success">false</boolProp>
-        <intProp name="Assertion.test_type">6</intProp>
-      </ResponseAssertion>
+      <SizeAssertion guiclass="SizeAssertionGui" testclass="SizeAssertion" testname="Size Assertion-2">
+        <stringProp name="Assertion.test_field">SizeAssertion.response_network_size</stringProp>
+        <stringProp name="SizeAssertion.size">21000</stringProp>
+        <intProp name="SizeAssertion.operator">6</intProp>
+      </SizeAssertion>
       <hashTree/>
-      <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Code-1">
-        <collectionProp name="Asserion.test_strings">
-          <stringProp name="49586">200</stringProp>
-        </collectionProp>
-        <stringProp name="Assertion.custom_message"></stringProp>
-        <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
-        <boolProp name="Assertion.assume_success">false</boolProp>
-        <intProp name="Assertion.test_type">8</intProp>
-      </ResponseAssertion>
+      <SizeAssertion guiclass="SizeAssertionGui" testclass="SizeAssertion" testname="Size Assertion-3">
+        <stringProp name="Assertion.test_field">SizeAssertion.response_network_size</stringProp>
+        <stringProp name="SizeAssertion.size">20000</stringProp>
+        <intProp name="SizeAssertion.operator">2</intProp>
+      </SizeAssertion>
       <hashTree/>
-      <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Code-2">
-        <collectionProp name="Asserion.test_strings">
-          <stringProp name="49587">201</stringProp>
-        </collectionProp>
-        <stringProp name="Assertion.custom_message"></stringProp>
-        <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
-        <boolProp name="Assertion.assume_success">false</boolProp>
-        <intProp name="Assertion.test_type">8</intProp>
-      </ResponseAssertion>
-      <hashTree/>
-      <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Code-3">
-        <collectionProp name="Asserion.test_strings">
-          <stringProp name="49586">200</stringProp>
-        </collectionProp>
-        <stringProp name="Assertion.custom_message"></stringProp>
-        <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
-        <boolProp name="Assertion.assume_success">false</boolProp>
-        <intProp name="Assertion.test_type">12</intProp>
-      </ResponseAssertion>
-      <hashTree/>
-      <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Headers-1">
-        <collectionProp name="Asserion.test_strings">
-          <stringProp name="-1606201635">HTTP/1.1 200 OK</stringProp>
-        </collectionProp>
-        <stringProp name="Assertion.custom_message"></stringProp>
-        <stringProp name="Assertion.test_field">Assertion.response_headers</stringProp>
-        <boolProp name="Assertion.assume_success">false</boolProp>
-        <intProp name="Assertion.test_type">2</intProp>
-      </ResponseAssertion>
-      <hashTree/>
-      <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Headers-2">
-        <collectionProp name="Asserion.test_strings">
-          <stringProp name="-1606201635">HTTP/1.1 200 OK</stringProp>
-        </collectionProp>
-        <stringProp name="Assertion.custom_message"></stringProp>
-        <stringProp name="Assertion.test_field">Assertion.response_headers</stringProp>
-        <boolProp name="Assertion.assume_success">false</boolProp>
-        <intProp name="Assertion.test_type">6</intProp>
-      </ResponseAssertion>
+      <SizeAssertion guiclass="SizeAssertionGui" testclass="SizeAssertion" testname="Size Assertion-4">
+        <stringProp name="Assertion.test_field">SizeAssertion.response_network_size</stringProp>
+        <stringProp name="SizeAssertion.size">20000</stringProp>
+        <intProp name="SizeAssertion.operator">5</intProp>
+      </SizeAssertion>
       <hashTree/>
     </hashTree>
   </hashTree>
