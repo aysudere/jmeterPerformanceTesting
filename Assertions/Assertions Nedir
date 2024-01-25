@@ -1,0 +1,37 @@
+Assertions Nedir?
+
+Assertions, 
+	Test edilen sunucunun
+	beklenen sonuçları verdiğini doğrulamaya yararlar.
+	(expected Result verilip verilmediği)
+
+	*Response Assertion
+	*Duration Assertion
+	*Size Assertion
+	*XML Assertion
+	*HTML Assertion
+
+Response Assertion
+	-Model dizelerini(pattern strings) eklemek ve 
+	sunucu yanıtının bir veya 
+					daha fazla değerine karşı karşılaştırmak için kullanılabilir.
+					(Bir yada daha fazla server cevapları doğrulamak için kullanılır)
+
+Size Assertion
+	-Sunucu yanıtının beklenen Bayt sayısını içerip içermediğini doğrulamak için kullanılır.
+
+Duration Assertion
+	-Sunucu yanıtının belirli bir zaman kısıtlaması içinde alınıp alınmadığını doğrulamak için kullanılır. 
+	Yanıt verilen süreden daha uzun sürerse talep başarısız olarak işaretler.
+	Beklenen max response süresini kontrol eder
+		Daha uzun sürerse hatalı kabul edilir, Performans ölçücüdür.
+
+XML Assertion
+	-XML Assertion, 
+		sunucu yanıt verilerinin doğru bir XML belgesinden oluştuğunu doğrulamak için kullanılır.
+
+HTML Assertion
+	-Kullanıcının yanıt verilerinin(response data) 
+	HTML sözdizimini(syntax) kontrol etmesine izin verir. 
+	Bu, 
+		yanıt verilerinin HTML sözdizimini karşılaması gerektiği anlamına gelir.
