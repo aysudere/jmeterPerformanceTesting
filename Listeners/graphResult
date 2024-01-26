@@ -1,0 +1,27 @@
+
+Geçen zaman. 
+	JMeter, isteğin gönderilmesinden hemen önce ve son yanıtın alınmasından hemen sonrasına kadar geçen süreyi ölçer. JMeter, yanıtı oluşturmak için gereken süreyi içermez ve JMeter herhangi bir istemci kodunu (örneğin Javascript) işlemez.
+
+Gecikme. 
+	JMeter, isteğin gönderilmesinden hemen önce ve ilk yanıtın alınmasından hemen sonrasına kadar olan gecikmeyi ölçer. Dolayısıyla bu süre, talebin bir araya getirilmesi için gereken tüm işlemleri ve genel olarak bir bayttan daha uzun olacak olan yanıtın ilk kısmının bir araya getirilmesini içerir. Protokol analizörleri (Wireshark gibi), arayüz üzerinden baytların gerçekten gönderildiği/alındığı zamanı ölçer. JMeter zamanı, bir tarayıcı veya başka bir uygulama istemcisi tarafından deneyimlenen süreye daha yakın olmalıdır.
+
+Zamanı Bağlayın. 
+	JMeter, SSL anlaşması da dahil olmak üzere bağlantının kurulması için geçen süreyi ölçer. Bağlantı süresinin gecikmeden otomatik olarak çıkarılmadığını unutmayın. Bağlantı hatası durumunda metrik, hatayla karşılaşmak için geçen süreye eşit olacaktır; örneğin Zaman Aşımı durumunda bağlantı zaman aşımına eşit olmalıdır.
+JMeter 3.1'den itibaren bu ölçüm yalnızca TCP Örnekleyici, HTTP İsteği ve JDBC İsteği için hesaplanır.
+Medyan örnekleri iki eşit yarıya bölen bir sayıdır. Örneklerin yarısı ortancadan daha küçük, yarısı daha büyük. [Bazı örnekler medyana eşit olabilir.] Bu standart bir istatistiksel ölçümdür. Örneğin bkz.: Wikipedia'daki Medyan girişi. Medyan 50. Yüzdelik dilimle aynıdır
+%90 Çizgisi (90. Yüzdelik dilim), örneklerin %90'ının altına düştüğü değerdir. Kalan örnekler de en az değer kadar uzundur. Bu standart bir istatistiksel ölçümdür. Örneğin bkz.: Vikipedi'deki yüzdelik dilim girişi.
+
+Standart Sapma, 
+	bir veri kümesinin değişkenliğinin bir ölçüsüdür. Bu standart bir istatistiksel ölçümdür. Örneğin bkz.: Wikipedia'daki Standart Sapma girişi. JMeter, numune standart sapmasını (örn. STDSAPMA) değil, popülasyon standart sapmasını (örn. elektronik tablolardaki STDEVP işlevi) hesaplar.
+
+Dinleyiciler ve günlük dosyalarında göründüğü haliyle Konu Adı, Konu Grubu adından ve grup içindeki mesaj dizisinden türetilir. Ad şu biçimdedir: groupName + " " + groupIndex + "-" + threadIndex
+	burada:
+	groupName - Konu Grubu öğesinin adı
+	groupIndex - Test Planındaki Konu Grubunun numarası, 1'den başlayarak
+	threadIndex - 1'den başlayarak Konu Grubu içindeki iş parçacığının numarası
+	Her biri iki iş parçacığına sahip iki İş Parçacığı Grubundan oluşan bir test planında şu adlar kullanılır:
+		Konu Grubu 1-1
+		Konu Grubu 1-2
+		Konu Grubu 2-1
+		Konu Grubu 2-2
+Verim, istek/zaman birimi olarak hesaplanır. Süre, ilk numunenin başlangıcından son numunenin sonuna kadar hesaplanır. Bu, sunucudaki yükü temsil etmesi gerektiği için örnekler arasındaki tüm aralıkları içerir. Formül şu şekildedir: Verim = (istek sayısı) / (toplam süre).
