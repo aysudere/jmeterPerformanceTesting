@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1706277404353,236,HTTP Request,200,OK,Thread Group-1 1-1,text,true,,20035,119,3,3,https://www.google.com.tr/,212,0,91
+1706277404458,219,HTTP Request,200,OK,Thread Group-1 1-2,text,true,,19982,119,3,3,https://www.google.com.tr/,200,0,81
+1706277404556,239,HTTP Request,200,OK,Thread Group-1 1-3,text,true,,20001,119,3,3,https://www.google.com.tr/,214,0,89
+1706277404656,214,HTTP Request,200,OK,Thread Group-1 1-4,text,true,,20003,119,3,3,https://www.google.com.tr/,195,0,83
+1706277404759,203,HTTP Request,200,OK,Thread Group-1 1-5,text,true,,19978,119,3,3,https://www.google.com.tr/,184,0,80
+1706277404958,215,HTTP Request,200,OK,Thread Group-1 1-7,text,true,,20022,119,4,4,https://www.google.com.tr/,194,0,82
+1706277405058,237,HTTP Request,200,OK,Thread Group-1 1-8,text,true,,20041,119,4,4,https://www.google.com.tr/,213,0,80
+1706277405161,240,HTTP Request,200,OK,Thread Group-1 1-9,text,true,,19981,119,3,3,https://www.google.com.tr/,222,0,105
+1706277404858,547,HTTP Request,200,OK,Thread Group-1 1-6,text,true,,20023,119,2,2,https://www.google.com.tr/,523,0,97
+1706277405257,254,HTTP Request,200,OK,Thread Group-1 1-10,text,true,,20035,119,1,1,https://www.google.com.tr/,226,0,102
