@@ -1,0 +1,14 @@
+Simple Controller
+
+Nedir?
+
+Basit Denetleyici, 
+	Samplers ve 
+	diğer Mantık Denetleyicilerinin 
+		düzenlenmesine ve 
+		saklanmasına yardımcı olur.
+		
+ Diğer denetleyiciler gibi başka bir işlevsellik sunmaz.
+
+HTTP requestleri Sampler Controllerın altında toplamak gibidir.
+İşlevselliği yoktur
