@@ -1,0 +1,26 @@
+Recording Controller
+
+Nedir?
+
+Jmeter, 
+	Test adımlarınızı kaydedebilir; 
+		bir kayıt denetleyicisi, 
+		bu kayıt adımlarını depolamak için bir yer tutucudur.
+
+Aşamalar
+
+1-NonTest Element Oluşturulması (HTTP(s) Test Script Recorder) : Testin yürütülmesine doğrudan katılmaz ama jmx oluşturulmasına katkı sağlar
+2-Browser da Proxy ayarlarının yapılması : browserı dinlemesi gerek
+3-Kayıt Başlatılması : başlatılır
+4-Kayıtın durdurulması ve kayıt edilmesi : kaydeder
+
+NonTest Element : 
+	Bu öğeler, 
+		testin yürütülmesine doğrudan katılmaz, 
+		ancak JMeter komut dosyası oluşturmaya önemli bir katkı sağlar.
+
+
+*Kayıt denetleyicisi
+*Test adımlarımızı kaydetmek için
+
+-Requestleri bu kontrol denetleyicilerinin altında depolayabiliriz
