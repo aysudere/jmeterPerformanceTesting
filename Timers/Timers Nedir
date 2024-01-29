@@ -1,0 +1,20 @@
+Timers Nedir? (Zamanlayıcılar)
+
+JMeter'deki zamanlayıcılar, 
+	testin yürütülmesini belirli bir süre boyunca duraklatmak için kullanılan 
+	test planı öğeleridir.
+
+*Jmeter da sunucuya istek yaptığımızda herhangi bir bekleme yada duraklama olmaz
+Dar boğaza sebep olabilir
+Her istek arasında gecikme olabilmesine sebebiyet verir
+
+Timer Türleri
+
+	Constant Timer*
+	Uniform Random Timer*
+	Gaussian Random Timer
+	BeanShell Timer
+	BSF Timer
+	JSR223 Timer
+
+Overload sorununu çözmeye yarar
