@@ -1,0 +1,15 @@
+Uniform Random Timer	
+
+Nedir?
+
+Her kullanıcının isteğini rastgele bir süre geciktirmesini sağlayan zamanlayıcıdır.
+
+Random delay in maximum
+	(Maksimum rastgele gecikme)
+Constant delay offset 
+	(Sabit gecikme ofseti)
+
+Formül = |0.X * Random Delay in Maximimum + Constant Delay Offset|
+X = 0-9
+
+|0.X * 100 + 0|
