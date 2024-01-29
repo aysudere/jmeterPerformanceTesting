@@ -1,0 +1,10 @@
+Loop Controller
+
+Nedir?
+
+Döngü Denetleyicisi (Loop Controller) , 
+	kullanıcı isteğinin belirli sayıda 
+						veya sonsuza kadar çalışmasını sağlar
+
+						*Bir requestin belirli sayıda yada sonsuza dek çalışması
+						
