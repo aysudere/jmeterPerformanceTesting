@@ -1,0 +1,26 @@
+Logic Controller
+
+Nedir?
+
+Mantık Denetleyicileri(Logic Controller), 
+	bir request için 
+		işleme talebinin sırasını tanımlamanıza izin verir. 
+
+	Bir web sunucusuna bir kullanıcı isteğinin 
+		"ne zaman" 
+			gönderileceğini kontrol etmenizi sağlar.
+
+Mantık Denetleyicileri, 
+	kullanıcı isteğinin yürütülme sırasını belirler.
+
+Örneğin, HTTP isteklerini sunucuya rastgele göndermek için Rastgele Denetleyicileri (Random Controller) kullanabilirsiniz.
+
+Logic Controller
+	Recording
+	Simple
+	Loop
+	Random
+	Module
+	...
+
+Kullanıcı requestinin yürütülme sırasını belirler
