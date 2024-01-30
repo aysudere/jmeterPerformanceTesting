@@ -1,0 +1,10 @@
+Random Order Controller
+
+Nedir?
+
+Altına yerleştirilmiş tüm requestleri rastgele bir sırayla seçer.
+
+	Örneğin: 
+
+	10 HTTP requestiniz varsa, bu denetleyici TÜMÜNÜ yürütür, 
+								ancak her seferinde rastgele bir sırada.
