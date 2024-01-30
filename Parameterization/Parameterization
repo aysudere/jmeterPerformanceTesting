@@ -1,0 +1,29 @@
+Parameterization
+
+Nedir?
+
+Parametrelendirme, 
+	farklı veri kümeleriyle bir test planını "birden çok kez" yürütebildiğimiz tekniktir.
+
+Nasıl Yapılır?
+
+JMeter'de parametrelendirmeyi "iki" şekilde gerçekleştirebiliriz:
+
+JMeter Internal (Dahili) Parametreleri : 
+	Bu durumda, parametreleri dahili olarak tanımlayabilir ve 
+	bu parametreleri JMeter'in herhangi bir yerinde tanımlayabiliriz.
+
+CSV/Excel dosyasından Parametre Değerlerini Okuma : 
+	Bu durumda, bir CSV dosyası oluşturarak birden fazla parametreyi iletiyoruz. 
+	Aynı CSV dosyasından parametre değerlerini okuyup aynı şeyi request'e verebiliriz. 
+	Bu işleme Data-Driven Test (Veriye Dayalı Test) de denir.
+
+Örnek
+
+URL : https://openweathermap.org/current
+City Name API : 
+https://api.openweathermap.org/data/2.5/weather?q={city name},{country code}&appid={API key}
+
+City ID API :
+https://api.openweathermap.org/data/2.5/weather?id={city id}&appid={API key}
+API key : Site üzerinden alınacaktır.
