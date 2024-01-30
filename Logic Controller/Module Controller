@@ -1,0 +1,18 @@
+Module Controller
+
+Nedir?
+
+JMeter Modül Denetleyicisi, 
+	test planının parçaları arasında 
+		geçiş yapılmasına izin veren denetleyicidir.
+
+	Genel fikir, 
+		web uygulamalarının küçük işlevsellik birimlerinden oluşmasıdır (örn. Oturum Açma, Hesap Oluşturma, Oturumu Kapatma…).
+	
+	Bu işlevsellik, 
+		Basit Denetleyici de(Simple Controller) "modüller" olarak saklanabilir.
+	
+	Modül Denetleyicisi, 
+		hangi modülün çalışması gerektiğini seçecektir.
+
+Hangisinin ne zaman çalışacağını kontrol etmek amaçlı kullanılır
