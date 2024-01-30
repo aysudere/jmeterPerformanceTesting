@@ -1,0 +1,10 @@
+Random Controller
+
+Nedir?
+
+Rastgele Denetleyici, 
+	örnekleyicileri/istekleri her döngüde "rastgele sırada" çalıştırır.
+
+Örneğin, 
+	Random Controller altında 4 adet Http request tanımlanır, 
+	ardından bu requestler rasgele sırada gönderilecektir.
