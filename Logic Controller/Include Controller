@@ -1,0 +1,21 @@
+Include Controller
+
+Nedir?
+
+Include Controller, 
+	"modülleri" bir test planına dahil etmenin kolay bir yolunu sağlar. 
+	Modül Denetleyicisinden birkaç yönden farklıdır.
+	*içinde fileları tutabilen bir yer var
+	*tüm örnekleriyle beraber bir denetleyici yüklemektedir
+
+Include Controller, 
+	tüm örnekleriyle birlikte basit bir denetleyici yükler, 
+	burada Modül Denetleyicisi herhangi bir denetleyiciyi kullanabilir.
+
+Neden Kullanılır?
+
+	Bir test planını yeniden kullanılabilir modüllere ayırmak için
+	Test planlarını sürdürme maliyetini azaltmak için
+	Ortak sürecin tekrarını azaltmak için
+
+	filename: jmx dosyasını include etmek için kullanılır
