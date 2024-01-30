@@ -1,0 +1,21 @@
+Test Fragment Controller
+
+Nedir?	
+
+Test Fragment, 
+	Test Planı ağacında Thread Group öğesiyle aynı düzeyde bulunan "özel" bir denetleyici türüdür. 
+	*(The Test Fragment element is a special type of controller that exists on the Test Plan tree at the same level as the Thread Group element.)
+
+Bir Modül Denetleyicisi(Module Controller) veya 
+bir Include Controller tarafından başvurulmadığı sürece yürütülmez.
+
+ Birden fazla katılımcıyı ve 
+ 				kaynak kontrolünü desteklemek için tek bir JMeter Test Planının farklı yönlerini 
+ 					temiz bir şekilde ayırma yeteneği sunar.
+
+ Controller altında yer almaz bir elementtir, kendisi Jmeter da ayrı bir yere sahiptir
+ Özel bir denetleyici olarak geçmektedir
+ Simple controllera benzemektedir
+
+ Başvurulmadığı sürece yürütülmez
+ Temiz clean code ortaya çıkarır
