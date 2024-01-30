@@ -1,0 +1,12 @@
+Throughput Controller
+
+Nedir?
+
+Throughput Controller, 
+	kullanıcının ne sıklıkta requestleri yürütmesine  olanak tanır. 
+
+	İki mod vardır:
+
+		Percent executions : Denetleyicinin, test planı aracılığıyla requestlerin belirli bir yüzdesini yürütmesine neden olur.
+		
+		Total executions : Bir requesti belli sayıda çalıştırmayı sağlar.
