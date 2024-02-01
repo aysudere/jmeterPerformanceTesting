@@ -1,0 +1,20 @@
+Html Rapor Oluşturma
+
+Adımlar
+
+1-) Test Planı Oluşturulur
+2-) Rapor Oluşturmak için iki farklı seçenek vardır.
+	2.1-) Jmeter Dosyasını Run Etmeden Rapor Oluşturma
+	
+	jmeter –n –t ‘JMeterDosyasınınKonumu’ –l ‘OluşturulacakCSVDosyanınKonumu’ –e –o ‘RaporunÇıkarılacağıKonum’
+
+	2.2-)JMeter Dosyasını Run Ettikten Sonra Oluşan CSV File Rapor Oluşturma
+	jmeter –g ‘CSVDosyasınınKonumu’ –o ‘RaporunÇıkarılacağıKonum’
+
+!!! Cmd Bin Klasöründen Açılmalıdır.
+
+jmeter –n –t "/Users/aysudere/Desktop/jmeterPerformanceTesting/HTML Rapor/htmlRapor.jmx" –l "/Users/aysudere/Desktop/jmeterPerformanceTesting/HTML Rapor/Result.csv" –e –o "/Users/aysudere/Desktop/jmeterPerformanceTesting/HTML Rapor/Raporlar"
+
+jmeter –n –t "/Users/aysudere/Desktop/jmeterPerformanceTesting/HTML Rapor/htmlRapor.jmx" –l "/Users/aysudere/Desktop/jmeterPerformanceTesting/HTML Rapor/Result.csv" –e –o "/Desktop/jmeterPerformanceTesting/HTML Rapor/Raporlar"
+
+jmeter –g "/Users/aysudere/Desktop/jmeterPerformanceTesting/HTML Rapor/result.csv" –o "/Users/aysudere/Desktop/jmeterPerformanceTesting/HTML Rapor/Raporlar/"
