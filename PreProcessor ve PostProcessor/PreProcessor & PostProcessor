@@ -1,0 +1,15 @@
+PreProcessor & PostProcessor
+
+Nedir?
+
+Processor, JMeter'in çok önemli bir parçasıdır. 
+	Samplerların kapsamlarını değiştirmek kullanılırlar.
+
+PreProcessor, 
+	sampler yürütmesinden önce yürütür. 
+
+PostProcessor ise, 
+	sunucudan yanıt verilerini yürütmek ve daha sonra kullanmak üzere çıkarılan belirli değerleri kaydetmek için kullanılır.
+
+	pre processor http send to server
+	http get the response post precossor
