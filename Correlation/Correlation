@@ -1,0 +1,25 @@
+Correlation
+
+Nedir?
+
+JMeter'deki korelasyon, 
+	"dinamik" yanıtı sunucudan yakalayıp depolama ve 
+									sonraki isteklere iletme işlemidir. 
+
+JMeter'de korelasyon çok önemlidir. 
+
+Bunun nedeni, 
+	dinamik sitelerin performans yükleme testi komut dosyası oluşturma sırasında korelasyon gerektirmesidir.
+
+
+	request - "step1" - extract values - request "step2"
+
+Düzenli ifade (Regular expression)
+
+Düzenli ifadeler veya kurallı ifadeler, 
+	bilgisayar bilimlerinde ele alınan metindeki kimi katarların kısa yoldan ve 
+	esnek bir biçimde belirlenmesini sağlar. 
+
+Bu katarlar belli karakterler, 
+		kelimeler veya 
+		karakter örüntüleri olabilir.
